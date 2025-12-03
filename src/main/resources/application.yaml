@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ssidibe/jago-config-repos
+          #uri: https://github.com/ssidibe/jago-config-repos
+          uri: file:///usr/local/jago-config-repos
           clone-on-start: true
   profiles:
     active: ${SERVEUR_PROFILE:prod}

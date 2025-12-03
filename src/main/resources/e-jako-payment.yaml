@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: e-jako-payment
+  datasource:
+    url: jdbc:postgresql://localhost:5436/payment
+    username: payment
+    password: payment
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+e-jako:
+  mail:
+    server:
+      host: 10.0.15.0
+      username: jako-payment@e-jako.com
+      sender: no-reply@e-jako.com
